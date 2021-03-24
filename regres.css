@@ -1,0 +1,68 @@
+body{
+   background-image:url("https://cdn.pixabay.com/photo/2017/03/27/15/13/band-2179313_960_720.jpg");
+   background-size: 110vw;
+   background-position: right;
+   height:80vh;
+}
+header{
+    background:transparent;
+    color: purple;
+}
+.navbar{
+    background:transparent;
+   
+}
+.regform {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color:purple;
+    padding-top:5px;
+    font-size: x-large;
+    width:50vw;
+    height:50vh;
+    
+}
+u a{
+    color: azure;
+}
+.nameplace{
+    color:coral;
+    font-family:sans-serif;
+    text-align: center;
+}
+
+.nameplace h5{
+    margin-bottom:5px;
+    text-align: center;
+}
+.genderplace{
+     color:brown;
+     font-family: 'Courier New', Courier, monospace;   
+}
+.genderplace h5{
+    margin-bottom:5px;
+    text-align: center;
+}
+.musicplace{
+ color:yellow;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.musicplace h5{
+    margin-bottom:5px;
+    text-align:center;
+}
+
+
+.countryplace{
+ color:blue;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-top: 25px;
+}
+.submitplace{
+ color:brown;
+}
+
+
+
+

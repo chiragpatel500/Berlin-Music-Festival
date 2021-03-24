@@ -1,0 +1,76 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berlin Musik Fest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="regres.css">
+  </head>
+  <body>
+    <header> 
+      <h1>Berlin Music festival</h1>
+      <h2> Registration Form</h2>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="special.html">Special</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+   
+<main> 
+  <form class="regform" action="submit.html" target="_blank">
+    <div>
+      <h3> Register Now and Reserve your spot</h3>
+    </div>
+    <div class="nameplace"> 
+      <h5>Name & Email</h5>   
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="john@gmail.com">
+    </div>
+
+    <div class="genderplace">
+        <h5>Gender</h5>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label><br>
+    </div>
+    
+    <div class="musicplace">
+      <h5>Choice of Music</h5>
+    <input type="checkbox" id="rock" name="rock">
+    <label for="rock">rock</label>
+    <input type="checkbox" id="pop" name="pop" >
+    <label for="pop">pop</label>
+    <input type="checkbox" id="jazz" name="jazz" >
+    <label for="jazz">jazz</label>
+  </div>
+    
+  <div class="countryplace">
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Germany">Germany</option>
+      <option value="France">France</option>
+      <option value="Poland">Poland</option>
+    </select><br>
+    </div>
+   
+      <div class="submitplace">   
+      <p><input type="checkbox" required name="terms"> I accept the <u><a href="terms.html" target="_blank">Terms and Conditions</u></p>
+      <p><input type="submit"></p>
+      </div> 
+  </form>
+    </main>
+     
+
+
+</body>
+</html>

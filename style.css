@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+    background-image: url("https://t4.ftcdn.net/jpg/02/93/54/03/240_F_293540383_SoHK46bhafau5TFyNRaTcnHSJOE1Bk7T.jpg");
+    color: azure;
+    padding-bottom: 5px;
+    padding-top:5px;
+}
+.navbar li {
+    display: inline;    
+    font-size: xx-large;
+    margin:20px;
+ 
+}
+.navbar ul li a{
+    color: beige;
+}

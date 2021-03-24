@@ -1,0 +1,15 @@
+body{
+      background-image: url("https://previews.123rf.com/images/tashatuvango/tashatuvango1610/tashatuvango161000333/63493237-yellow-index-card-with-inscription-terms-and-conditions-on-background-of-modern-laptop-keyboard-clos.jpg");
+      background-position:center;
+      background-size: 100vw;
+
+}
+header{
+    background: transparent;
+    color: black;
+}
+.tercon {
+    height:100vh;
+    color:black;
+    font-size:large; 
+}
