@@ -3,7 +3,12 @@ body{
     background-size:100vw;
 
 }
-
+h3{
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    color: brown;
+}
 .thankyou{
     color:black;
     font-family:'Courier New', Courier, monospace;
@@ -14,5 +19,5 @@ body{
     display: flex;
     flex-direction:row;
     align-items: center;
-    margin-top:400px;
+    margin-top:300px;
 }
